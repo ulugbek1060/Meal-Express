@@ -14,4 +14,6 @@ class Constants{
   // Helper method to format API errors
   static String apiFailure(int? statusCode) => '$apiRequestFailed$statusCode';
   static String dioFailure(DioException e) => '$networkError${e.message}';
+
+  static const CART_BOX = 'cart_box.db';
 }
